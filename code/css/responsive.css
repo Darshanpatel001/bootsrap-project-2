@@ -1,0 +1,84 @@
+@media(max-width:1200px) {}
+
+@media(max-width:992px) {}
+
+@media(max-width:576px) {
+    .banner .banner-data .h1 {
+        font-size: 57px;
+    }
+
+    .banner .boxx {
+
+        padding: 17px 12px !important;
+        font-size: 12px !important;
+    }
+
+    .shaping-future h2 {
+        font-size: 32px !important;
+        line-height: 48% !important;
+    }
+}
+
+@media(max-width:767px) {
+    .banner-data h1 {
+        font-size: 60px;
+    }
+
+    .blog .blogg .blog-content h4 {
+        font-size: 22px !important;
+    }
+    footer .footer-img img {
+        display: none;
+    }
+}
+
+@media(max-width:479px) {
+    .banner .banner-data .h1 {
+        font-size: 42px;
+    }
+
+    .banner .boxx {
+        padding: 10px;
+        font-size: 12px;
+    }
+
+    .better-future .cstm-btn-1 {
+        padding: 11px 29px !important;
+    }
+
+    .shaping-future h2 {
+        font-size: 28px !important;
+        line-height: 102% !important;
+    }
+
+    .key-point .statict h2 {
+        font-size: 28px !important;
+    }
+
+    .key-point .statict {
+        padding: 0px !important;
+    }
+
+    .blog .d-flex {
+        display: none !important;
+        flex: none !important;
+    }
+}
+
+@media(max-width:376px) {
+
+    /* ==========service========== */
+    .shaping-future {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .shaping-future .btn {
+        padding: 0;
+        line-height: 5;
+    }
+
+    .blog .blogg .blog-content h4 br {
+        display: none;
+    }
+}
